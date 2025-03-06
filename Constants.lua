@@ -1,3 +1,4 @@
+-- Comment
 setfenv(1, WhatsTraining)
 
 local COMINGSOON_FONT_COLOR_CODE = "|cff82c5ff"
