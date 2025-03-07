@@ -157,7 +157,13 @@ function PlayerData:GetAvailableSpells()
       if not (Utils.TableHasValue(self.knownSpellIds, spell.id)) then -- spell is not learned yet
         if (spell.level > self.level) then
           if (spell.level - self.level <= 2) then
-            tinsert(comingSoon, spell)
+            if spell.requiredTalent ~= nil and not PlayerData:IsTalentKnown(spell.name, spell.requiredTalent.tabIndex) then
+              tinsert(missingTalentRequirement, spell)
+            elseif spell.requiredIds ~= nil and not PlayerData:IsSpellRequirementsMet(spell.requiredIds) then
+              tinsert(missingRequirements, spell)
+            else
+              tinsert(availableSpells, spell)
+            end
           else
             tinsert(notAvailable, spell)
           end
