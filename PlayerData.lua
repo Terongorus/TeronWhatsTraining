@@ -162,7 +162,7 @@ function PlayerData:GetAvailableSpells()
             elseif spell.requiredIds ~= nil and not PlayerData:IsSpellRequirementsMet(spell.requiredIds) then
               tinsert(missingRequirements, spell)
             else
-              tinsert(availableSpells, spell)
+              tinsert(comingSoon, spell)            
             end
           else
             tinsert(notAvailable, spell)
