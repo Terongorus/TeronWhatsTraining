@@ -1,27 +1,32 @@
 setfenv(1, WhatsTraining)
 WhatsTraining = {}
 
+WhatsTraining_Initialized = false
+
 function WhatsTraining:Initialise()
-  local name = UnitName("player")
-  if name then
-    PlayerData:SetName(name)
+  if WhatsTraining_Initialized == false then
+    local name = UnitName("player")
+    if name then
+      PlayerData:SetName(name)
+    end
+    PlayerData:SetClass(UnitClass("player"))
+    PlayerData:SetRace(UnitRace("player"))
+    PlayerData:SetLevel(UnitLevel("player"))
+    PlayerData:SetSpellsByLevel(ClassSpellsByLevel[PlayerData.class])
+
+    local overridenSpells = OverridenSpells[PlayerData.class]
+    if (overridenSpells) then
+      PlayerData:SetOverriddenSpells(overridenSpells)
+    end
+
+    PlayerData:GetKnownSpells()
+    PlayerData:GetAvailableSpells()
+
+    WhatsTrainingUI:Initialize()
+
+    WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)
+    WhatsTraining_Initialized = true
   end
-  PlayerData:SetClass(UnitClass("player"))
-  PlayerData:SetRace(UnitRace("player"))
-  PlayerData:SetLevel(UnitLevel("player"))
-  PlayerData:SetSpellsByLevel(ClassSpellsByLevel[PlayerData.class])
-
-  local overridenSpells = OverridenSpells[PlayerData.class]
-  if (overridenSpells) then
-    PlayerData:SetOverriddenSpells(overridenSpells)
-  end
-
-  PlayerData:GetKnownSpells()
-  PlayerData:GetAvailableSpells()
-
-  WhatsTrainingUI:Initialize()
-
-  WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)
 end
 
 local function OnEvent()
