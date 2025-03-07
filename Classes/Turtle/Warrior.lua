@@ -110,6 +110,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=72,name="Shield Bash",subText="Rank 1",level=12,icon="Interface\\Icons\\Ability_Warrior_ShieldBash",school="Protection"}
 	},
 	[14] = {
+		{id=1464,name="Slam",subText="Rank 1", level=14,icon="Interface\\Icons\\Ability_Warrior_DecisiveStrike",school="Arms"},
 		{id=1160,name="Demoralizing Shout",subText="Rank 1",level=14,icon="Interface\\Icons\\Ability_Warrior_WarCry",school="Fury"},
 		{id=6572,name="Revenge",subText="Rank 1",level=14,icon="Interface\\Icons\\Ability_Warrior_Revenge",school="Protection"}
 	},
@@ -136,6 +137,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=7405,name="Sunder Armor",subText="Rank 2",level=22,icon="Interface\\Icons\\Ability_Warrior_Sunder",school="Protection",requiredIds={7386}}
 	},
 	[24] = {
+		{id=8820,name="Slam",subText="Rank 2", level=24,icon="Interface\\Icons\\Ability_Warrior_DecisiveStrike",school="Arms",requiredIds={1464}},
 		{id=6190,name="Demoralizing Shout",subText="Rank 2",level=24,icon="Interface\\Icons\\Ability_Warrior_WarCry",school="Fury",requiredIds={1160}},
 		{id=5308,name="Execute",subText="Rank 1",level=24,icon="Interface\\Icons\\INV_Sword_48",school="Fury"},
 		{id=1608,name="Heroic Strike",subText="Rank 4",level=24,icon="Interface\\Icons\\Ability_Rogue_Ambush",school="Arms",requiredIds={285}},
@@ -159,7 +161,6 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=20252,name="Intercept",subText="Rank 1",level=30,icon="Interface\\Icons\\Ability_Rogue_Sprint",school="Fury"},
 		{id=6548,name="Rend",subText="Rank 4",level=30,icon="Interface\\Icons\\Ability_Gouge",school="Arms",requiredIds={6547}},
 		{id=23922,name="Shield Slam",subText="Rank 1",level=30,icon="Interface\\Icons\\INV_Shield_05",school="Protection",requiredTalent={id=87,tabIndex=3}},
-		{id=1464,name="Slam",subText="",level=30,icon="Interface\\Icons\\Ability_Warrior_DecisiveStrike",school="Arms"},
 		{id=12292,name="Sweeping Strikes",subText="",level=30,icon="Interface\\Icons\\Ability_Rogue_SliceDice",school="Arms",requiredTalent={id=68,tabIndex=1}}
 	},
 	[32] = {
@@ -171,6 +172,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=1671,name="Shield Bash",subText="Rank 2",level=32,icon="Interface\\Icons\\Ability_Warrior_ShieldBash",school="Protection",requiredIds={72}}
 	},
 	[34] = {
+		{id=11604,name="Slam",subText="Rank 3", level=34,icon="Interface\\Icons\\Ability_Warrior_DecisiveStrike",school="Arms",requiredIds={8820}},
 		{id=11554,name="Demoralizing Shout",subText="Rank 3",level=34,icon="Interface\\Icons\\Ability_Warrior_WarCry",school="Fury",requiredIds={6190}},
 		{id=7379,name="Revenge",subText="Rank 3",level=34,icon="Interface\\Icons\\Ability_Warrior_Revenge",school="Protection",requiredIds={6574}},
 		{id=8380,name="Sunder Armor",subText="Rank 3",level=34,icon="Interface\\Icons\\Ability_Warrior_Sunder",school="Protection",requiredIds={7405}}
@@ -199,6 +201,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=20616,name="Intercept",subText="Rank 2",level=42,icon="Interface\\Icons\\Ability_Rogue_Sprint",school="Fury",requiredIds={20252}}
 	},
 	[44] = {
+		{id=11605,name="Slam",subText="Rank 4", level=44,icon="Interface\\Icons\\Ability_Warrior_DecisiveStrike",school="Arms",requiredIds={11604}},
 		{id=11555,name="Demoralizing Shout",subText="Rank 4",level=44,icon="Interface\\Icons\\Ability_Warrior_WarCry",school="Fury",requiredIds={11554}},
 		{id=11584,name="Overpower",subText="Rank 3",level=44,icon="Interface\\Icons\\Ability_MeleeDamage",school="Arms",requiredIds={7887}},
 		{id=11600,name="Revenge",subText="Rank 4",level=44,icon="Interface\\Icons\\Ability_Warrior_Revenge",school="Protection",requiredIds={7379}}
@@ -229,6 +232,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=1672,name="Shield Bash",subText="Rank 3",level=52,icon="Interface\\Icons\\Ability_Warrior_ShieldBash",school="Protection",requiredIds={1671}}
 	},
 	[54] = {
+		{id=45961,name="Slam",subText="Rank 5", level=54,icon="Interface\\Icons\\Ability_Warrior_DecisiveStrike",school="Arms",requiredIds={11605}},
 		{id=23893,name="Bloodthirst",subText="Rank 3",level=54,icon="Interface\\Icons\\Spell_Nature_BloodLust",school="Fury",requiredIds={23892},requiredTalent={id=108,tabIndex=2}},
 		{id=51601,name="Concussion Blow",subText="Rank 3",level=54,icon="Interface\\Icons\\Ability_ThunderBolt",school="Protection",requiredIds={51600},requiredTalent={id=92,tabIndex=3}},
 		{id=45599,name="Decisive Strike",subText="",level=54,icon="Interface\\Icons\\Ability_Warrior_DecisiveStrike_New",school="Fury"},
@@ -246,7 +250,6 @@ ClassSpellsByLevel["Warrior"] = {
 	[58] = {
 		{id=11597,name="Sunder Armor",subText="Rank 5",level=58,icon="Interface\\Icons\\Ability_Warrior_Sunder",school="Protection",requiredIds={11596}},
 		{id=11581,name="Thunder Clap",subText="Rank 6",level=58,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Arms",requiredIds={11580}},
-		{id=6554,name="zzOLD Pummel",subText="Rank 2",level=58,icon="Interface\\Icons\\INV_Gauntlets_04",school="Fury"}
 	},
 	[60] = {
 		{id=25289,name="Battle Shout",subText="Rank 7",level=60,icon="Interface\\Icons\\Ability_Warrior_BattleShout",school="Fury",requiredIds={11551}},
