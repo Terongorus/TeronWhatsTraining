@@ -1,9 +1,9 @@
 setfenv(1, WhatsTraining)
 WhatsTrainingUI = {}
 
-local HIGHLIGHT_TEXTURE_FILEID = "Interface\\AddOns\\WhatsTraining_Turtle\\textures\\highlight"
-local LEFT_BG_TEXTURE_FILEID = "Interface\\AddOns\\WhatsTraining_Turtle\\textures\\left"
-local RIGHT_BG_TEXTURE_FILEID = "Interface\\AddOns\\WhatsTraining_Turtle\\textures\\right"
+local HIGHLIGHT_TEXTURE_FILEID = "Interface\\AddOns\\TeronWhatsTraining\\textures\\highlight"
+local LEFT_BG_TEXTURE_FILEID = "Interface\\AddOns\\TeronWhatsTraining\\textures\\left"
+local RIGHT_BG_TEXTURE_FILEID = "Interface\\AddOns\\TeronWhatsTraining\\textures\\right"
 local TAB_TEXTURE_FILEID = "Interface\\Icons\\INV_Misc_QuestionMark"
 local TAB_BACKDROP_FILEID = "Interface\\Spellbook\\SpellBook-SkillLineTab"
 local TAB_HIGHLIGHT_TEXTURE_FILEID = "Interface\\Buttons\\ButtonHilight-Square"
