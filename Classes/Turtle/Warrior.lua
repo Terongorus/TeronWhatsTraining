@@ -86,6 +86,7 @@ OverridenSpells["Warrior"] = {
 }
 ClassSpellsByLevel["Warrior"] = {
 	[1] = {
+		{id=2457,name="Battle Stance",subText="",level=1,icon="Interface\\Icons\\Ability_Warrior_OffensiveStance",school="Arms"},
 		{id=6673,name="Battle Shout",subText="Rank 1",level=1,icon="Interface\\Icons\\Ability_Warrior_BattleShout",school="Fury"},
 		{id=78,name="Heroic Strike",subText="Rank 1",level=1,icon="Interface\\Icons\\Ability_Rogue_Ambush",school="Arms"}
 	},
