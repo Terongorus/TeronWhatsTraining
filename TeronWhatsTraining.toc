@@ -24,5 +24,5 @@ Classes\Turtle\Shaman.lua
 Classes\Turtle\Warlock.lua
 Classes\Turtle\Warrior.lua
 
-WhatsTrainingUI.lua
-WhatsTraining.lua
+TeronWhatsTrainingUI.lua
+TeronWhatsTraining.lua
