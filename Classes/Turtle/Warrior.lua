@@ -154,7 +154,7 @@ ClassSpellsByLevel["Warrior"] = {
 	[30] = {
 		{id=2458,name="Berserker Stance",subText="",level=30,icon="Interface\\Icons\\Ability_Racial_Avatar",school="Fury"},
 		{id=7369,name="Cleave",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Warrior_Cleave",school="Fury",requiredIds={845}},
-		{id=51627,name="Counterattack",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51626}},
+		{id=51627,name="Counterattack",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51626},requiredTalent={id=63,tabIndex=1}},
 		{id=12328,name="Death Wish",subText="",level=30,icon="Interface\\Icons\\Spell_Shadow_DeathPact",school="Fury",requiredTalent={id=104,tabIndex=2}},
 		{id=20252,name="Intercept",subText="Rank 1",level=30,icon="Interface\\Icons\\Ability_Rogue_Sprint",school="Fury"},
 		{id=6548,name="Rend",subText="Rank 4",level=30,icon="Interface\\Icons\\Ability_Gouge",school="Arms",requiredIds={6547}},
@@ -188,7 +188,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=23881,name="Bloodthirst",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Nature_BloodLust",school="Fury",requiredTalent={id=108,tabIndex=2}},
 		{id=11608,name="Cleave",subText="Rank 3",level=40,icon="Interface\\Icons\\Ability_Warrior_Cleave",school="Fury",requiredIds={7369}},
 		{id=12809,name="Concussion Blow",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_ThunderBolt",school="Protection",requiredTalent={id=92,tabIndex=3}},
-		{id=51628,name="Counterattack",subText="Rank 3",level=40,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51627}},
+		{id=51628,name="Counterattack",subText="Rank 3",level=40,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51627},requiredTalent={id=63,tabIndex=1}},
 		{id=20660,name="Execute",subText="Rank 3",level=40,icon="Interface\\Icons\\INV_Sword_48",school="Fury",requiredIds={20658}},
 		{id=11565,name="Heroic Strike",subText="Rank 6",level=40,icon="Interface\\Icons\\Ability_Rogue_Ambush",school="Arms",requiredIds={11564}},
 		{id=12294,name="Mortal Strike",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_Warrior_SavageBlow",school="Arms",requiredTalent={id=73,tabIndex=1}},
@@ -219,7 +219,7 @@ ClassSpellsByLevel["Warrior"] = {
 	},
 	[50] = {
 		{id=11609,name="Cleave",subText="Rank 4",level=50,icon="Interface\\Icons\\Ability_Warrior_Cleave",school="Fury",requiredIds={11608}},
-		{id=51629,name="Counterattack",subText="Rank 4",level=50,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51628}},
+		{id=51629,name="Counterattack",subText="Rank 4",level=50,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51628}, requiredTalent={id=63,tabIndex=1}},
 		{id=1719,name="Recklessness",subText="",level=50,icon="Interface\\Icons\\Ability_CriticalStrike",school="Fury"},
 		{id=11573,name="Rend",subText="Rank 6",level=50,icon="Interface\\Icons\\Ability_Gouge",school="Arms",requiredIds={11572}}
 	},
@@ -253,7 +253,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=23894,name="Bloodthirst",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Nature_BloodLust",school="Fury",requiredIds={23893}},
 		{id=20569,name="Cleave",subText="Rank 5",level=60,icon="Interface\\Icons\\Ability_Warrior_Cleave",school="Fury",requiredIds={11609}},
 		{id=51602,name="Concussion Blow",subText="Rank 4",level=60,icon="Interface\\Icons\\Ability_ThunderBolt",school="Protection",requiredIds={51601}},
-		{id=51630,name="Counterattack",subText="Rank 5",level=60,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51629}},
+		{id=51630,name="Counterattack",subText="Rank 5",level=60,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredIds={51629},requiredTalent={id=63,tabIndex=1}},
 		{id=25286,name="Heroic Strike",subText="Rank 9",level=60,icon="Interface\\Icons\\Ability_Rogue_Ambush",school="Arms",requiredIds={11567}},
 		{id=45595,name="Intervene",subText="Rank 1",level=60,icon="Interface\\Icons\\Ability_Warrior_Intervene",school="Protection"},
 		{id=21553,name="Mortal Strike",subText="Rank 4",level=60,icon="Interface\\Icons\\Ability_Warrior_SavageBlow",school="Arms",requiredIds={21552}},
