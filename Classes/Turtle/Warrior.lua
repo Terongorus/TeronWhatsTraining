@@ -87,7 +87,6 @@ OverridenSpells["Warrior"] = {
 ClassSpellsByLevel["Warrior"] = {
 	[1] = {
 		{id=6673,name="Battle Shout",subText="Rank 1",level=1,icon="Interface\\Icons\\Ability_Warrior_BattleShout",school="Fury"},
-		{id=2457,name="Battle Stance",subText="",level=1,icon="Interface\\Icons\\Ability_Warrior_OffensiveStance",school="Arms"},
 		{id=78,name="Heroic Strike",subText="Rank 1",level=1,icon="Interface\\Icons\\Ability_Rogue_Ambush",school="Arms"}
 	},
 	[4] = {
@@ -95,6 +94,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=772,name="Rend",subText="Rank 1",level=4,icon="Interface\\Icons\\Ability_Gouge",school="Arms"}
 	},
 	[6] = {
+		{id=3127,name="Parry",subText="Passive",level=6,icon="Interface\\Icons\\Ability_Parry",school="Defense"},
 		{id=6343,name="Thunder Clap",subText="Rank 1",level=6,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Arms"}
 	},
 	[8] = {
@@ -102,6 +102,7 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=284,name="Heroic Strike",subText="Rank 2",level=8,icon="Interface\\Icons\\Ability_Rogue_Ambush",school="Arms",requiredIds={78}}
 	},
 	[10] = {
+		{id=674,name="Dual Wield",subText="Passive",level=10,icon="Interface\\Icons\\Ability_Dualwield",school="Dual Wield"},
 		{id=2687,name="Bloodrage",subText="",level=10,icon="Interface\\Icons\\Ability_Racial_BloodRage",school="Protection"},
 		{id=71,name="Defensive Stance",subText="",level=10,icon="Interface\\Icons\\Ability_Warrior_DefensiveStance",school="Protection"},
 		{id=6546,name="Rend",subText="Rank 2",level=10,icon="Interface\\Icons\\Ability_Gouge",school="Arms",requiredIds={772}},
