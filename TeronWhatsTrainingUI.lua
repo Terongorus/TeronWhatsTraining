@@ -30,7 +30,7 @@ function WhatsTrainingUI:Update()
       if previousRow and previousRow:IsVisible() then
         row:SetPoint("TOPLEFT", previousRow, "BOTTOMLEFT", 0, -2)
       else
-        row:SetPoint("TOPLEFT", self.frame, 26, -78)
+        row:SetPoint("TOPLEFT", self.frame, 26, -48)
       end
       row:Show()
     else
@@ -100,8 +100,8 @@ end
 
 function WhatsTrainingUI:InitDisplay()
   self.frame = CreateFrame("Frame", "WhatsTrainingFrame", SpellBookFrame)
-  self.frame:SetPoint("TOPLEFT", SpellBookFrame, "TOPLEFT", 0, 0)
-  self.frame:SetPoint("BOTTOMRIGHT", SpellBookFrame, "BOTTOMRIGHT", 0, 0)
+  self.frame:SetPoint("TOPLEFT", SpellBookFrame, "TOPLEFT", 0, -30)
+  self.frame:SetPoint("BOTTOMRIGHT", SpellBookFrame, "BOTTOMRIGHT", -30, 0)
   self.frame:SetFrameStrata("HIGH")
   -- prevents mouse hover leaking
   self.frame:EnableMouse(true)
@@ -112,17 +112,17 @@ function WhatsTrainingUI:InitDisplay()
   left:SetTexture(LEFT_BG_TEXTURE_FILEID)
   left:SetWidth(256)
   left:SetHeight(512)
-  left:SetPoint("TOPLEFT", self.frame)
+  left:SetPoint("TOPLEFT", self.frame,0,30)
 
   local right = self.frame:CreateTexture(nil, "ARTWORK")
   right:SetTexture(RIGHT_BG_TEXTURE_FILEID)
   right:SetWidth(128)
   right:SetHeight(512)
-  right:SetPoint("TOPRIGHT", self.frame)
+  right:SetPoint("TOPRIGHT", self.frame,30,30)
 
   self.scrollBar = CreateFrame("ScrollFrame", "FrameScrollBar", self.frame, "FauxScrollFrameTemplate")
-  self.scrollBar:SetPoint("TOPLEFT", 0, -75)
-  self.scrollBar:SetPoint("BOTTOMRIGHT", -65, 81)
+  self.scrollBar:SetPoint("TOPLEFT", 0, -45)
+  self.scrollBar:SetPoint("BOTTOMRIGHT", -35, 81)
 
   self.scrollBar:SetScript("OnShow", function() WhatsTrainingUI:Update() end)
 
@@ -156,7 +156,7 @@ function WhatsTrainingUI:SetItems(spells)
       header:SetPoint("RIGHT", self.scrollBar)
 
       if (self.rows[i - 1] == nil) then
-        header:SetPoint("TOPLEFT", self.frame, 26, -78)
+        header:SetPoint("TOPLEFT", self.frame, 26, -48) 
       else
         header:SetPoint("TOPLEFT", self.rows[i - 1], "BOTTOMLEFT", 0, -2)
       end
