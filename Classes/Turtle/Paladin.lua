@@ -160,8 +160,8 @@ ClassSpellsByLevel["Paladin"] = {
 		{id=20918,name="Seal of Command",subText="Rank 3",level=40,icon="Interface\\Icons\\Ability_Warrior_InnerRage",school="Retribution",requiredIds={20915},requiredTalent={id=437,tabIndex=3}},
 		{id=20347,name="Seal of Light",subText="Rank 2",level=40,icon="Interface\\Icons\\Spell_Holy_HealingAura",school="Holy",requiredIds={20165}},
 		{id=19895,name="Shadow Resistance Aura",subText="Rank 2",level=40,icon="Interface\\Icons\\Spell_Shadow_SealOfKings",school="Protection",requiredIds={19876}},
-		{id=45028,name="Summon Scarlet Warhorse",subText="Summon",level=40,icon="Interface\\Icons\\Spell_Nature_Swiftness",school="Holy"},
-		{id=45017,name="Summon Thalassian Warhorse",subText="Summon",level=40,icon="Interface\\Icons\\Spell_Nature_Swiftness",school="Holy"},
+--		{id=45028,name="Summon Scarlet Warhorse",subText="Summon",level=40,icon="Interface\\Icons\\Spell_Nature_Swiftness",school="Holy"},
+--		{id=45017,name="Summon Thalassian Warhorse",subText="Summon",level=40,icon="Interface\\Icons\\Spell_Nature_Swiftness",school="Holy"},
 		{id=13819,name="Summon Warhorse",subText="Summon",level=40,icon="Interface\\Icons\\Spell_Nature_Swiftness",school="Holy"}
 	},
 	[42] = {
@@ -261,9 +261,9 @@ ClassSpellsByLevel["Paladin"] = {
 		{id=51558,name="Repentance",subText="Rank 3",level=60,icon="Interface\\Icons\\Spell_Holy_PrayerOfHealing",school="Retribution",requiredIds={51557},requiredTalent={id=439,tabIndex=3}},
 		{id=20920,name="Seal of Command",subText="Rank 5",level=60,icon="Interface\\Icons\\Ability_Warrior_InnerRage",school="Retribution",requiredIds={20919},requiredTalent={id=437,tabIndex=3}},
 		{id=20349,name="Seal of Light",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Holy_HealingAura",school="Holy",requiredIds={20348}},
-		{id=45020,name="Summon Argent Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"},
-		{id=23214,name="Summon Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"},
-		{id=45029,name="Summon Scarlet Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"},
-		{id=45019,name="Summon Thalassian Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"}
+--		{id=45020,name="Summon Argent Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"},
+		{id=23214,name="Summon Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"}
+--		{id=45029,name="Summon Scarlet Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"},
+--		{id=45019,name="Summon Thalassian Charger",subText="Summon",level=60,icon="Interface\\Icons\\Ability_Mount_Charger",school="Holy"}
 	}
 }
