@@ -22,7 +22,9 @@ function WhatsTraining:Initialise()
     PlayerData:GetKnownSpells()
     PlayerData:GetAvailableSpells()
 
-    WhatsTrainingUI:Initialize()
+    if WhatsTraining_Initialized == flase then
+      WhatsTrainingUI:Initialize()
+    end
 
     WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)
     WhatsTraining_Initialized = true
@@ -34,6 +36,7 @@ local function OnEvent()
     WhatsTraining:Initialise()
   elseif event == "SPELLS_CHANGED" then
     WhatsTrainingUI:HideFrame()
+    WhatsTraining:Initialise()
   end
 end
 
