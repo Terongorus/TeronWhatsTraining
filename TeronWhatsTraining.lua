@@ -33,10 +33,13 @@ local function OnEvent()
     WhatsTraining:Initialise()
   elseif event == "SPELLS_CHANGED" then
     WhatsTrainingUI:HideFrame()
-    if WhatsTraining_Initialized == true then
+--[[    if WhatsTraining_Initialized == true then
+      WhatsTrainingUI.rows = {}
+      PlayerData:GetKnownSpells()
       PlayerData:GetAvailableSpells()
-      WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)      
-    end  
+      WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)     
+      WhatsTrainingUI:Update() 
+    end  ]]
   end
 end
 
