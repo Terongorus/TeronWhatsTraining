@@ -35,6 +35,7 @@ local function OnEvent()
     WhatsTrainingUI:HideFrame()
     if WhatsTraining_Initialized == true then
       PlayerData:GetAvailableSpells()
+      WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)      
     end  
   end
 end
