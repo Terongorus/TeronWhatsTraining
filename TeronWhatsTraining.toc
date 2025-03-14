@@ -1,6 +1,6 @@
 ## Interface: 11200
 ## Title: Teron's WhatsTraining
-## Version: 1.0.5
+## Version: v1.1.0
 ## Author: Teron
 ## Notes: Shows you what spells are available at your class trainer
 
