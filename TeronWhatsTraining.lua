@@ -35,6 +35,8 @@ local function OnEvent()
     WhatsTrainingUI:HideFrame()
   elseif event == "PLAYER_LEVEL_UP" then
     if WhatsTraining_Initialized == true then
+      -- Stupid WoW API doesn't allow Frame to be destroyed! So just Hide and forget about them
+      -- this will leave garbage in memory but ... it is what it is
       for i, row in ipairs(WhatsTrainingUI.rows) do
         row:Hide()
       end
