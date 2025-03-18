@@ -33,17 +33,22 @@ local function OnEvent()
     WhatsTraining:Initialise()
   elseif event == "SPELLS_CHANGED" then
     WhatsTrainingUI:HideFrame()
---[[    if WhatsTraining_Initialized == true then
+  elseif event == "PLAYER_LEVEL_UP" then
+    if WhatsTraining_Initialized == true then
+      for i, row in ipairs(WhatsTrainingUI.rows) do
+        row:Hide()
+      end
       WhatsTrainingUI.rows = {}
       PlayerData:GetKnownSpells()
       PlayerData:GetAvailableSpells()
       WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)     
       WhatsTrainingUI:Update() 
-    end  ]]
+    end  
   end
 end
 
 local f = CreateFrame("Frame")
 f:RegisterEvent("PLAYER_ENTERING_WORLD")
 f:RegisterEvent("SPELLS_CHANGED")
+f:RegisterEvent("PLAYER_LEVEL_UP")
 f:SetScript("OnEvent", OnEvent)
