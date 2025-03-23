@@ -34,23 +34,22 @@ local function OnEvent()
   elseif event == "SPELLS_CHANGED" then
     WhatsTrainingUI:HideFrame()
   elseif event == "PLAYER_LEVEL_UP" then
-    print("Level Up! Event")
     if WhatsTraining_Initialized == true then
       -- Stupid WoW API doesn't allow Frame to be destroyed! So just Hide and forget about them
       -- this will leave garbage in memory but ... it is what it is
-      print("Hide old buttons")
       for i, row in ipairs(WhatsTrainingUI.rows) do
         row:Hide()
       end
-      print("Clean old rows")
-      WhatsTrainingUI.rows = {}
-      print("Get known spells")
+      PlayerData:SetLevel(UnitLevel("player"))
+      PlayerData:SetSpellsByLevel(ClassSpellsByLevel[PlayerData.class])
+      local overridenSpells = OverridenSpells[PlayerData.class]
+      if (overridenSpells) then
+        PlayerData:SetOverriddenSpells(overridenSpells)
+      end
+        WhatsTrainingUI.rows = {}
       PlayerData:GetKnownSpells()
-      print("Get available spells")
       PlayerData:GetAvailableSpells()
-      print("Set all")
       WhatsTrainingUI:SetItems(PlayerData.spellsByCategory)     
-      print("Update UI")
       WhatsTrainingUI:Update() 
     end  
   end
