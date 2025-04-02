@@ -33,14 +33,19 @@ local function OnEvent()
     WhatsTraining:Initialise()
   elseif event == "SPELLS_CHANGED" then
     WhatsTrainingUI:HideFrame()
-  elseif event == "PLAYER_LEVEL_UP" then
+  elseif event == "PLAYER_LEVEL_UP" or event == "LEARNED_SPELL_IN_TAB" then
     if WhatsTraining_Initialized == true then
       -- Stupid WoW API doesn't allow Frame to be destroyed! So just Hide and forget about them
       -- this will leave garbage in memory but ... it is what it is
       for i, row in ipairs(WhatsTrainingUI.rows) do
         row:Hide()
       end
-      PlayerData:SetLevel(UnitLevel("player"))
+      if event == "PLAYER_LEVEL_UP" then
+        local level = arg1
+      else
+        level = UnitLevel("player")
+      end
+      PlayerData:SetLevel(level)
       PlayerData:SetSpellsByLevel(ClassSpellsByLevel[PlayerData.class])
       local overridenSpells = OverridenSpells[PlayerData.class]
       if (overridenSpells) then
@@ -59,4 +64,5 @@ local f = CreateFrame("Frame")
 f:RegisterEvent("PLAYER_ENTERING_WORLD")
 f:RegisterEvent("SPELLS_CHANGED")
 f:RegisterEvent("PLAYER_LEVEL_UP")
+f:RegisterEvent("LEARNED_SPELL_IN_TAB")
 f:SetScript("OnEvent", OnEvent)
