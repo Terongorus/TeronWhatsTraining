@@ -29,6 +29,7 @@ function WhatsTraining:Initialise()
 end
 
 local function OnEvent()
+  local level = 1
   if event == "PLAYER_ENTERING_WORLD" then
     WhatsTraining:Initialise()
   elseif event == "SPELLS_CHANGED" then
@@ -41,7 +42,7 @@ local function OnEvent()
         row:Hide()
       end
       if event == "PLAYER_LEVEL_UP" then
-        local level = arg1
+        level = arg1
       else
         level = UnitLevel("player")
       end
