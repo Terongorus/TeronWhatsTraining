@@ -269,6 +269,6 @@ ClassSpellsByLevel["Warrior"] = {
 		{id=11585,name="Overpower",subText="Rank 4",level=60,icon="Interface\\Icons\\Ability_MeleeDamage",school="Arms",requiredIds={11584}},
 		{id=11574,name="Rend",subText="Rank 7",level=60,icon="Interface\\Icons\\Ability_Gouge",school="Arms",requiredIds={11573}},
 		{id=25288,name="Revenge",subText="Rank 6",level=60,icon="Interface\\Icons\\Ability_Warrior_Revenge",school="Protection",requiredIds={11601}},
-		{id=52315,name="Shield Slam",subText="Rank 5",level=60,icon="Interface\\Icons\\INV_Shield_05",school="Protection",requiredIds={23925},requiredTalent={id=87,tabIndex=3}}
+--		{id=52315,name="Shield Slam",subText="Rank 5",level=60,icon="Interface\\Icons\\INV_Shield_05",school="Protection",requiredIds={23925},requiredTalent={id=87,tabIndex=3}}
 	}
 }
