@@ -54,14 +54,14 @@ ClassSpellsByLevel["Warlock"] = {
 		{id=698,name="Ritual of Summoning",subText="",level=20,icon="Interface\\Icons\\Spell_Shadow_Twilight",school="Demonology"},
 		{id=1088,name="Shadow Bolt",subText="Rank 4",level=20,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Destruction",requiredIds={705}},
 		{id=17877,name="Shadowburn",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Shadow_ScourgeBuild",school="Destruction",requiredTalent={id=326,tabIndex=3}},
-		{id=48017,name="Summon Incubus",subText="Summon",level=20,icon="Interface\\Icons\\ability_warlock_incubus",school="Affliction"},
+--		{id=48017,name="Summon Incubus",subText="Summon",level=20,icon="Interface\\Icons\\ability_warlock_incubus",school="Affliction"},
 		{id=712,name="Summon Succubus",subText="Summon",level=20,icon="Interface\\Icons\\Spell_Shadow_SummonSuccubus",school="Demonology"}
 	},
 	[22] = {
 		{id=6202,name="Create Healthstone (Lesser)",subText="",level=22,icon="Interface\\Icons\\INV_Stone_04",school="Demonology"},
 		{id=699,name="Drain Life",subText="Rank 2",level=22,icon="Interface\\Icons\\Spell_Shadow_LifeDrain02",school="Affliction",requiredIds={689}},
 		{id=126,name="Eye of Kilrogg",subText="Summon",level=22,icon="Interface\\Icons\\Spell_Shadow_EvilEye",school="Demonology"},
-		{id=51691,name="Firestone Attack",subText="",level=22,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Demonology"}
+--		{id=51691,name="Firestone Attack",subText="",level=22,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Demonology"}
 	},
 	[24] = {
 		{id=6223,name="Corruption",subText="Rank 3",level=24,icon="Interface\\Icons\\Spell_Shadow_AbominationExplosion",school="Affliction",requiredIds={6222}},
@@ -90,7 +90,7 @@ ClassSpellsByLevel["Warlock"] = {
 		{id=709,name="Drain Life",subText="Rank 3",level=30,icon="Interface\\Icons\\Spell_Shadow_LifeDrain02",school="Affliction",requiredIds={699}},
 		{id=1098,name="Enslave Demon",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Shadow_EnslaveDemon",school="Demonology"},
 		{id=1949,name="Hellfire",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction"},
-		{id=5857,name="Hellfire Effect",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction"},
+--		{id=5857,name="Hellfire Effect",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction"},
 		{id=2941,name="Immolate",subText="Rank 4",level=30,icon="Interface\\Icons\\Spell_Fire_Immolation",school="Destruction",requiredIds={1094}},
 		{id=51714,name="Power Overwhelming",subText="",level=30,icon="Interface\\Icons\\ability_warlock_power_overwhelming",school="Demonology",requiredTalent={id=366,tabIndex=2}},
 		{id=18265,name="Siphon Life",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Shadow_Requiem",school="Affliction",requiredTalent={id=348,tabIndex=1}},
@@ -150,7 +150,7 @@ ClassSpellsByLevel["Warlock"] = {
 		{id=7659,name="Curse of Recklessness",subText="Rank 3",level=42,icon="Interface\\Icons\\Spell_Shadow_UnholyStrength",school="Affliction",requiredIds={7658}},
 		{id=6789,name="Death Coil",subText="Rank 1",level=42,icon="Interface\\Icons\\Spell_Shadow_DeathCoil",school="Affliction"},
 		{id=11683,name="Hellfire",subText="Rank 2",level=42,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction",requiredIds={1949}},
-		{id=11681,name="Hellfire Effect",subText="Rank 2",level=42,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction",requiredIds={5857}},
+--		{id=11681,name="Hellfire Effect",subText="Rank 2",level=42,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction",requiredIds={5857}},
 		{id=17921,name="Searing Pain",subText="Rank 4",level=42,icon="Interface\\Icons\\Spell_Fire_SoulBurn",school="Destruction",requiredIds={17920}},
 		{id=11739,name="Shadow Ward",subText="Rank 2",level=42,icon="Interface\\Icons\\Spell_Shadow_AntiShadow",school="Demonology",requiredIds={6229}}
 	},
@@ -204,7 +204,7 @@ ClassSpellsByLevel["Warlock"] = {
 		{id=11700,name="Drain Life",subText="Rank 6",level=54,icon="Interface\\Icons\\Spell_Shadow_LifeDrain02",school="Affliction",requiredIds={11699}},
 		{id=11704,name="Drain Mana",subText="Rank 4",level=54,icon="Interface\\Icons\\Spell_Shadow_SiphonMana",school="Affliction",requiredIds={11703}},
 		{id=11684,name="Hellfire",subText="Rank 3",level=54,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction",requiredIds={11683}},
-		{id=11682,name="Hellfire Effect",subText="Rank 3",level=54,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction",requiredIds={11681}},
+--		{id=11682,name="Hellfire Effect",subText="Rank 3",level=54,icon="Interface\\Icons\\Spell_Fire_Incinerate",school="Destruction",requiredIds={11681}},
 		{id=17928,name="Howl of Terror",subText="Rank 2",level=54,icon="Interface\\Icons\\Spell_Shadow_DeathScream",school="Affliction",requiredIds={5484}},
 		{id=51684,name="Soul Fire",subText="Rank 4",level=54,icon="Interface\\Icons\\Spell_Fire_Fireball02",school="Destruction",requiredIds={51683}}
 	},
