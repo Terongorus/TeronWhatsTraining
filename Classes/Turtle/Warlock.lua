@@ -78,7 +78,7 @@ ClassSpellsByLevel["Warlock"] = {
 	},
 	[28] = {
 		{id=710,name="Banish",subText="Rank 1",level=28,icon="Interface\\Icons\\Spell_Shadow_Cripple",school="Demonology"},
-		{id=6366,name="Create Firestone (Lesser)",subText="",level=28,icon="Interface\\Icons\\INV_Ammo_FireTar",school="Demonology"},
+--		{id=6366,name="Create Firestone (Lesser)",subText="",level=28,icon="Interface\\Icons\\INV_Ammo_FireTar",school="Demonology"},
 		{id=6217,name="Curse of Agony",subText="Rank 3",level=28,icon="Interface\\Icons\\Spell_Shadow_CurseOfSargeras",school="Affliction",requiredIds={1014}},
 		{id=7658,name="Curse of Recklessness",subText="Rank 2",level=28,icon="Interface\\Icons\\Spell_Shadow_UnholyStrength",school="Affliction",requiredIds={704}},
 		{id=3699,name="Health Funnel",subText="Rank 3",level=28,icon="Interface\\Icons\\Spell_Shadow_LifeDrain",school="Demonology",requiredIds={3698}},
@@ -163,7 +163,7 @@ ClassSpellsByLevel["Warlock"] = {
 		{id=11659,name="Shadow Bolt",subText="Rank 7",level=44,icon="Interface\\Icons\\Spell_Shadow_ShadowBolt",school="Destruction",requiredIds={7641}}
 	},
 	[46] = {
-		{id=17952,name="Create Firestone (Greater)",subText="",level=46,icon="Interface\\Icons\\INV_Ammo_FireTar",school="Demonology"},
+--		{id=17952,name="Create Firestone (Greater)",subText="",level=46,icon="Interface\\Icons\\INV_Ammo_FireTar",school="Demonology"},
 		{id=11729,name="Create Healthstone (Greater)",subText="",level=46,icon="Interface\\Icons\\INV_Stone_04",school="Demonology"},
 		{id=11721,name="Curse of the Elements",subText="Rank 2",level=46,icon="Interface\\Icons\\Spell_Shadow_ChillTouch",school="Affliction",requiredIds={1490}},
 		{id=11699,name="Drain Life",subText="Rank 5",level=46,icon="Interface\\Icons\\Spell_Shadow_LifeDrain02",school="Affliction",requiredIds={7651}},
@@ -209,7 +209,7 @@ ClassSpellsByLevel["Warlock"] = {
 		{id=51684,name="Soul Fire",subText="Rank 4",level=54,icon="Interface\\Icons\\Spell_Fire_Fireball02",school="Destruction",requiredIds={51683}}
 	},
 	[56] = {
-		{id=17953,name="Create Firestone (Major)",subText="",level=56,icon="Interface\\Icons\\INV_Ammo_FireTar",school="Demonology"},
+--		{id=17953,name="Create Firestone (Major)",subText="",level=56,icon="Interface\\Icons\\INV_Ammo_FireTar",school="Demonology"},
 		{id=11717,name="Curse of Recklessness",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Shadow_UnholyStrength",school="Affliction",requiredIds={7659}},
 		{id=17937,name="Curse of Shadow",subText="Rank 2",level=56,icon="Interface\\Icons\\Spell_Shadow_CurseOfAchimonde",school="Affliction",requiredIds={17862}},
 		{id=6215,name="Fear",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Shadow_Possession",school="Affliction",requiredIds={6213}},
