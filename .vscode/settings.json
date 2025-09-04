@@ -1,0 +1,36 @@
+{
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.runtime.builtin": {
+        "basic": "disable",
+        "debug": "disable",
+        "io": "disable",
+        "math": "disable",
+        "os": "disable",
+        "package": "disable",
+        "string": "disable",
+        "table": "disable",
+        "utf8": "disable"
+    },
+    "Lua.workspace.library": [
+        "~\\.vscode\\extensions\\ketho.wow-api-0.20.6\\Annotations\\Core"
+    ],
+    "Lua.diagnostics.globals": [
+        "GREEN_FONT_COLOR_CODE",
+        "RED_FONT_COLOR_CODE",
+        "LIGHTYELLOW_FONT_COLOR_CODE",
+        "GRAY_FONT_COLOR_CODE",
+        "SetItemButtonNameFrameVertexColor",
+        "SetItemButtonSlotVertexColor",
+        "SetItemButtonTextureVertexColor",
+        "SetItemButtonNormalTextureVertexColor",
+        "MerchantItemButton_OnClick",
+        "MerchantFrame",
+        "MerchantItem1ItemButton"
+    ],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
+}

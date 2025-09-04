@@ -112,7 +112,7 @@ ClassSpellsByLevel["Warlock"] = {
 		{id=17920,name="Searing Pain",subText="Rank 3",level=34,icon="Interface\\Icons\\Spell_Fire_SoulBurn",school="Destruction",requiredIds={17919}}
 	},
 	[35] = {
-		{id=18093,name="Pyroclasm",subText="",level=35,icon="Interface\\Icons\\Spell_Fire_Volcano",school="Destruction"}
+--		{id=18093,name="Pyroclasm",subText="",level=35,icon="Interface\\Icons\\Spell_Fire_Volcano",school="Destruction"}
 	},
 	[36] = {
 		{id=17951,name="Create Firestone",subText="",level=36,icon="Interface\\Icons\\INV_Ammo_FireTar",school="Demonology"},
@@ -123,7 +123,7 @@ ClassSpellsByLevel["Warlock"] = {
 	},
 	[38] = {
 		{id=11711,name="Curse of Agony",subText="Rank 4",level=38,icon="Interface\\Icons\\Spell_Shadow_CurseOfSargeras",school="Affliction",requiredIds={6217}},
-		{id=1010,name="Curse of Idiocy",subText="Rank 1",level=38,icon="Interface\\Icons\\Spell_Shadow_MindRot",school="Affliction"},
+--		{id=1010,name="Curse of Idiocy",subText="Rank 1",level=38,icon="Interface\\Icons\\Spell_Shadow_MindRot",school="Affliction"},
 		{id=2970,name="Detect Invisibility",subText="",level=38,icon="Interface\\Icons\\Spell_Shadow_DetectInvisibility",school="Demonology"},
 		{id=7651,name="Drain Life",subText="Rank 4",level=38,icon="Interface\\Icons\\Spell_Shadow_LifeDrain02",school="Affliction",requiredIds={709}},
 		{id=8289,name="Drain Soul",subText="Rank 3",level=38,icon="Interface\\Icons\\Spell_Shadow_Haunting",school="Affliction",requiredIds={8288}},
