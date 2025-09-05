@@ -132,7 +132,7 @@ ClassSpellsByLevel["Warrior"] = {
 	[20] = {
 		{id=845,name="Cleave",subText="Rank 1",level=20,icon="Interface\\Icons\\Ability_Warrior_Cleave",school="Fury"},
 --		{id=51626,name="Counterattack",subText="Rank 1",level=20,icon="Interface\\Icons\\Ability_Warrior_Riposte",school="Arms",requiredTalent={id=63,tabIndex=1}},
-		{id=54023,name="Master Strike",subText="",level=20,icon="Interface\\Icons\\Master_Strike_1",school="Arms",requiredTalent={id=62,tabIndex=1}}
+		{id=54023,name="Master Strike",subText="",level=20,icon="Interface\\Icons\\Master_Strike_1",school="Arms",requiredTalent={id=62,tabIndex=1}},
 		{id=12975,name="Last Stand",subText="",level=20,icon="Interface\\Icons\\Spell_Holy_AshesToAshes",school="Protection",requiredTalent={id=79,tabIndex=3}},
 		{id=12323,name="Piercing Howl",subText="",level=20,icon="Interface\\Icons\\Spell_Shadow_DeathScream",school="Fury",requiredTalent={id=98,tabIndex=2}},
 		{id=6547,name="Rend",subText="Rank 3",level=20,icon="Interface\\Icons\\Ability_Gouge",school="Arms",requiredIds={6546}},
