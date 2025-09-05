@@ -145,27 +145,28 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=10478,name="Frost Resistance Totem",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_FrostResistanceTotem_01",school="Enhancement",requiredIds={8181}},
 		{id=10456,name="Frostbrand Weapon",subText="Rank 3",level=38,icon="Interface\\Icons\\Spell_Frost_FrostBrand",school="Enhancement",requiredIds={8038}},
 		{id=10391,name="Lightning Bolt",subText="Rank 7",level=38,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={6041}},
-		{id=52420,name="Lightning Strike",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={51387}},
+		{id=52420,name="Lightning Strike",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={51387}, requiredTalent={id=256,tabIndex=2}},
 		{id=6392,name="Stoneclaw Totem",subText="Rank 4",level=38,icon="Interface\\Icons\\Spell_Nature_StoneClawTotem",school="Elemental Combat",requiredIds={6391}},
 		{id=8161,name="Strength of Earth Totem",subText="Rank 3",level=38,icon="Interface\\Icons\\Spell_Nature_EarthBindTotem",school="Enhancement",requiredIds={8160}}
 	},
 	[40] = {
-		{id=45509,name="Bloodlust",subText="",level=40,icon="Interface\\Icons\\Spell_Nature_BloodLust",school="Enhancement",requiredTalent={id=264,tabIndex=2}},
+		{id=45509,name="Bloodlust",subText="",level=40,icon="Interface\\Icons\\Spell_Nature_BloodLust",school="Enhancement",requiredTalent={id=265,tabIndex=2}},
+		{id=48306,name="Earthquake",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Nature_Earthquake",school="Elemental Combat",requiredTalent={id=233,tabIndex=1}},
 		{id=1064,name="Chain Heal",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Nature_HealingWaveGreater",school="Restoration"},
 		{id=930,name="Chain Lightning",subText="Rank 2",level=40,icon="Interface\\Icons\\Spell_Nature_ChainLightning",school="Elemental Combat",requiredIds={421}},
 		{id=45525,name="Earth Shield",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Nature_SkinofEarth",school="Enhancement"},
-		{id=16166,name="Elemental Mastery",subText="",level=40,icon="Interface\\Icons\\Spell_Nature_WispHeal",school="Elemental Combat",requiredTalent={id=232,tabIndex=1}},
+		{id=16166,name="Elemental Mastery",subText="",level=40,icon="Interface\\Icons\\Spell_Nature_WispHeal",school="Elemental Combat",requiredTalent={id=230,tabIndex=1}},
 		{id=45502,name="Ethereal Form",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Shaman_AstralShift",races={"Tauren"},school="Restoration"},
 		{id=45505,name="Feral Spirit",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Shaman_FeralSpirit",races={"Orc"},school="Enhancement"},
 		{id=10447,name="Flame Shock",subText="Rank 4",level=40,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Elemental Combat",requiredIds={8053}},
 		{id=6377,name="Healing Stream Totem",subText="Rank 3",level=40,icon="Interface\\Icons\\INV_Spear_04",school="Restoration",requiredIds={6375}},
 		{id=8005,name="Healing Wave",subText="Rank 7",level=40,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={959}},
-		{id=45534,name="Lava Lash",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_Shaman_Lavalash",school="Enhancement"},
+--		{id=45534,name="Lava Lash",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_Shaman_Lavalash",school="Enhancement"},
 		{id=8134,name="Lightning Shield",subText="Rank 5",level=40,icon="Interface\\Icons\\Spell_Nature_LightningShield",school="Enhancement",requiredIds={945}},
-		{id=16190,name="Mana Tide Totem",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Restoration"},
+--		{id=16190,name="Mana Tide Totem",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Restoration"},
 		{id=6365,name="Searing Totem",subText="Rank 4",level=40,icon="Interface\\Icons\\Spell_Fire_SearingTotem",school="Elemental Combat",requiredIds={6364}},
 		{id=51363,name="Spirit Link",subText="",level=40,icon="Interface\\Icons\\Spell_Shaman_SpiritLink",school="Restoration",requiredTalent={id=248,tabIndex=3}},
-		{id=45500,name="Totemic Slam",subText="",level=40,icon="Interface\\Icons\\Ability_Smash",school="Enhancement"},
+		{id=45500,name="Totemic Slam",subText="",level=40,icon="Interface\\Icons\\Ability_Smash",races={"Tauren"},school="Enhancement"},
 		{id=8235,name="Windfury Weapon",subText="Rank 2",level=40,icon="Interface\\Icons\\Spell_Nature_Cyclone",school="Enhancement",requiredIds={8232}}
 	},
 	[42] = {
@@ -198,7 +199,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=16355,name="Frostbrand Weapon",subText="Rank 4",level=48,icon="Interface\\Icons\\Spell_Frost_FrostBrand",school="Enhancement",requiredIds={10456}},
 		{id=10395,name="Healing Wave",subText="Rank 8",level=48,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={8005}},
 		{id=10431,name="Lightning Shield",subText="Rank 6",level=48,icon="Interface\\Icons\\Spell_Nature_LightningShield",school="Enhancement",requiredIds={8134}},
-		{id=17354,name="Mana Tide Totem",subText="Rank 2",level=48,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Restoration",requiredIds={16190}},
+--		{id=17354,name="Mana Tide Totem",subText="Rank 2",level=48,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Restoration",requiredIds={16190}},
 		{id=10427,name="Stoneclaw Totem",subText="Rank 5",level=48,icon="Interface\\Icons\\Spell_Nature_StoneClawTotem",school="Elemental Combat",requiredIds={6392}}
 	},
 	[50] = {
@@ -229,7 +230,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=10396,name="Healing Wave",subText="Rank 9",level=56,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={10395}},
 		{id=15208,name="Lightning Bolt",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={15207}},
 		{id=10432,name="Lightning Shield",subText="Rank 7",level=56,icon="Interface\\Icons\\Spell_Nature_LightningShield",school="Enhancement",requiredIds={10431}},
-		{id=52422,name="Lightning Strike",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={52420}},
+		{id=52422,name="Lightning Strike",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={52420}, requiredTalent={id=256,tabIndex=2}},
 		{id=10587,name="Magma Totem",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Elemental Combat",requiredIds={10586}},
 		{id=10497,name="Mana Spring Totem",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Nature_ManaRegenTotem",school="Restoration",requiredIds={10496}},
 		{id=15112,name="Windwall Totem",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Nature_EarthBind",school="Enhancement",requiredIds={15111}}
@@ -239,7 +240,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=16387,name="Flametongue Totem",subText="Rank 4",level=58,icon="Interface\\Icons\\Spell_Nature_GuardianWard",school="Enhancement",requiredIds={10526}},
 		{id=10473,name="Frost Shock",subText="Rank 4",level=58,icon="Interface\\Icons\\Spell_Frost_FrostShock",school="Elemental Combat",requiredIds={10472}},
 		{id=16356,name="Frostbrand Weapon",subText="Rank 5",level=58,icon="Interface\\Icons\\Spell_Frost_FrostBrand",school="Enhancement",requiredIds={16355}},
-		{id=17359,name="Mana Tide Totem",subText="Rank 3",level=58,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Restoration",requiredIds={17354}},
+--		{id=17359,name="Mana Tide Totem",subText="Rank 3",level=58,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Restoration",requiredIds={17354}},
 		{id=10428,name="Stoneclaw Totem",subText="Rank 6",level=58,icon="Interface\\Icons\\Spell_Nature_StoneClawTotem",school="Elemental Combat",requiredIds={10427}},
 		{id=51536,name="Water Shield",subText="Rank 5",level=58,icon="Interface\\Icons\\Ability_Shaman_WaterShield",school="Enhancement",requiredIds={51535}}
 	},
