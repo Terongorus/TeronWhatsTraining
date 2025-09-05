@@ -66,7 +66,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=5394,name="Healing Stream Totem",subText="Rank 1",level=20,icon="Interface\\Icons\\INV_Spear_04",school="Restoration"},
 		{id=8004,name="Lesser Healing Wave",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Nature_HealingWaveLesser",school="Restoration"},
 		{id=915,name="Lightning Bolt",subText="Rank 4",level=20,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={548}},
-		{id=51387,name="Lightning Strike",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredTalent={id=256,tabIndex=2}},
+		{id=51387,name="Lightning Strike",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredTalent={id=257,tabIndex=2}},
 		{id=6363,name="Searing Totem",subText="Rank 2",level=20,icon="Interface\\Icons\\Spell_Fire_SearingTotem",school="Elemental Combat",requiredIds={3599}}
 	},
 	[22] = {
@@ -108,10 +108,10 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=6375,name="Healing Stream Totem",subText="Rank 2",level=30,icon="Interface\\Icons\\INV_Spear_04",school="Restoration",requiredIds={5394}},
 		{id=45504,name="Hex",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Shaman_Hex",races={"Troll"},school="Elemental Combat"},
 		{id=10595,name="Nature Resistance Totem",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Nature_NatureResistanceTotem",school="Enhancement"},
-		{id=16188,name="Nature's Swiftness",subText="",level=30,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Restoration",requiredTalent={id=245,tabIndex=3}},
+		{id=16188,name="Ancestral Swiftness",subText="",level=30,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Restoration",requiredTalent={id=246,tabIndex=3}},
 		{id=20608,name="Reincarnation",subText="Passive",level=30,icon="Interface\\Icons\\Spell_Nature_Reincarnation",school="Restoration"},
 		{id=6364,name="Searing Totem",subText="Rank 3",level=30,icon="Interface\\Icons\\Spell_Fire_SearingTotem",school="Elemental Combat",requiredIds={6363}},
-		{id=17364,name="Stormstrike",subText="",level=30,icon="Interface\\Icons\\Ability_Shaman_StormStrike",school="Enhancement",requiredTalent={id=262,tabIndex=2}},
+		{id=17364,name="Stormstrike",subText="",level=30,icon="Interface\\Icons\\Ability_Shaman_StormStrike",school="Enhancement",requiredTalent={id=263,tabIndex=2}},
 		{id=8232,name="Windfury Weapon",subText="Rank 1",level=30,icon="Interface\\Icons\\Spell_Nature_Cyclone",school="Enhancement"}
 	},
 	[32] = {
@@ -145,7 +145,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=10478,name="Frost Resistance Totem",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_FrostResistanceTotem_01",school="Enhancement",requiredIds={8181}},
 		{id=10456,name="Frostbrand Weapon",subText="Rank 3",level=38,icon="Interface\\Icons\\Spell_Frost_FrostBrand",school="Enhancement",requiredIds={8038}},
 		{id=10391,name="Lightning Bolt",subText="Rank 7",level=38,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={6041}},
-		{id=52420,name="Lightning Strike",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={51387}, requiredTalent={id=256,tabIndex=2}},
+		{id=52420,name="Lightning Strike",subText="Rank 2",level=38,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={51387}, requiredTalent={id=257,tabIndex=2}},
 		{id=6392,name="Stoneclaw Totem",subText="Rank 4",level=38,icon="Interface\\Icons\\Spell_Nature_StoneClawTotem",school="Elemental Combat",requiredIds={6391}},
 		{id=8161,name="Strength of Earth Totem",subText="Rank 3",level=38,icon="Interface\\Icons\\Spell_Nature_EarthBindTotem",school="Enhancement",requiredIds={8160}}
 	},
@@ -165,7 +165,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=8134,name="Lightning Shield",subText="Rank 5",level=40,icon="Interface\\Icons\\Spell_Nature_LightningShield",school="Enhancement",requiredIds={945}},
 --		{id=16190,name="Mana Tide Totem",subText="Rank 1",level=40,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Restoration"},
 		{id=6365,name="Searing Totem",subText="Rank 4",level=40,icon="Interface\\Icons\\Spell_Fire_SearingTotem",school="Elemental Combat",requiredIds={6364}},
-		{id=51363,name="Spirit Link",subText="",level=40,icon="Interface\\Icons\\Spell_Shaman_SpiritLink",school="Restoration",requiredTalent={id=248,tabIndex=3}},
+		{id=51363,name="Spirit Link",subText="",level=40,icon="Interface\\Icons\\Spell_Shaman_SpiritLink",school="Restoration",requiredTalent={id=249,tabIndex=3}},
 		{id=45500,name="Totemic Slam",subText="",level=40,icon="Interface\\Icons\\Ability_Smash",races={"Tauren"},school="Enhancement"},
 		{id=8235,name="Windfury Weapon",subText="Rank 2",level=40,icon="Interface\\Icons\\Spell_Nature_Cyclone",school="Enhancement",requiredIds={8232}}
 	},
@@ -203,6 +203,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=10427,name="Stoneclaw Totem",subText="Rank 5",level=48,icon="Interface\\Icons\\Spell_Nature_StoneClawTotem",school="Elemental Combat",requiredIds={6392}}
 	},
 	[50] = {
+		{id=48307,name="Earthquake",subText="Rank 2",level=50,icon="Interface\\Icons\\Spell_Nature_Earthquake",school="Elemental Combat",requiredTalent={id=233,tabIndex=1}, requiredIds={48306}},
 		{id=10462,name="Healing Stream Totem",subText="Rank 4",level=50,icon="Interface\\Icons\\INV_Spear_04",school="Restoration",requiredIds={6377}},
 		{id=15207,name="Lightning Bolt",subText="Rank 9",level=50,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={10392}},
 		{id=10437,name="Searing Totem",subText="Rank 5",level=50,icon="Interface\\Icons\\Spell_Fire_SearingTotem",school="Elemental Combat",requiredIds={6365}},
@@ -230,7 +231,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=10396,name="Healing Wave",subText="Rank 9",level=56,icon="Interface\\Icons\\Spell_Nature_MagicImmunity",school="Restoration",requiredIds={10395}},
 		{id=15208,name="Lightning Bolt",subText="Rank 10",level=56,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={15207}},
 		{id=10432,name="Lightning Shield",subText="Rank 7",level=56,icon="Interface\\Icons\\Spell_Nature_LightningShield",school="Enhancement",requiredIds={10431}},
-		{id=52422,name="Lightning Strike",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={52420}, requiredTalent={id=256,tabIndex=2}},
+		{id=52422,name="Lightning Strike",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Nature_ThunderClap",school="Enhancement",requiredIds={52420}, requiredTalent={id=257,tabIndex=2}},
 		{id=10587,name="Magma Totem",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Elemental Combat",requiredIds={10586}},
 		{id=10497,name="Mana Spring Totem",subText="Rank 4",level=56,icon="Interface\\Icons\\Spell_Nature_ManaRegenTotem",school="Restoration",requiredIds={10496}},
 		{id=15112,name="Windwall Totem",subText="Rank 3",level=56,icon="Interface\\Icons\\Spell_Nature_EarthBind",school="Enhancement",requiredIds={15111}}
@@ -245,6 +246,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=51536,name="Water Shield",subText="Rank 5",level=58,icon="Interface\\Icons\\Ability_Shaman_WaterShield",school="Enhancement",requiredIds={51535}}
 	},
 	[60] = {
+		{id=48308,name="Earthquake",subText="Rank 3",level=60,icon="Interface\\Icons\\Spell_Nature_Earthquake",school="Elemental Combat",requiredTalent={id=233,tabIndex=1}, requiredIds={48307}},
 		{id=20777,name="Ancestral Spirit",subText="Rank 5",level=60,icon="Interface\\Icons\\Spell_Nature_Regenerate",school="Restoration",requiredIds={20776}},
 		{id=51526,name="Earth Shield",subText="Rank 3",level=60,icon="Interface\\Icons\\Spell_Nature_SkinofEarth",school="Enhancement",requiredIds={51525}},
 		{id=10414,name="Earth Shock",subText="Rank 7",level=60,icon="Interface\\Icons\\Spell_Nature_EarthShock",school="Elemental Combat",requiredIds={10413}},
