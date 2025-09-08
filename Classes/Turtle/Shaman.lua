@@ -73,7 +73,8 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=2870,name="Cure Disease",subText="",level=22,icon="Interface\\Icons\\Spell_Nature_RemoveDisease",school="Restoration"},
 		{id=8498,name="Fire Nova Totem",subText="Rank 2",level=22,icon="Interface\\Icons\\Spell_Fire_SealOfFire",school="Elemental Combat",requiredIds={1535}},
 		{id=8166,name="Poison Cleansing Totem",subText="",level=22,icon="Interface\\Icons\\Spell_Nature_PoisonCleansingTotem",school="Restoration"},
-		{id=131,name="Water Breathing",subText="",level=22,icon="Interface\\Icons\\Spell_Shadow_DemonBreath",school="Enhancement"}
+		{id=131,name="Water Breathing",subText="",level=22,icon="Interface\\Icons\\Spell_Shadow_DemonBreath",school="Enhancement"},
+		{id=36916,name="Molten Blast",subText="Rank 1",level=22,icon="Interface\\Icons\\Spell_Fire_MeteorStorm",school="Elemental Combat"}
 	},
 	[24] = {
 		{id=20609,name="Ancestral Spirit",subText="Rank 2",level=24,icon="Interface\\Icons\\Spell_Nature_Regenerate",school="Restoration",requiredIds={2008}},
@@ -100,7 +101,8 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=8038,name="Frostbrand Weapon",subText="Rank 2",level=28,icon="Interface\\Icons\\Spell_Frost_FrostBrand",school="Enhancement",requiredIds={8033}},
 		{id=8008,name="Lesser Healing Wave",subText="Rank 2",level=28,icon="Interface\\Icons\\Spell_Nature_HealingWaveLesser",school="Restoration",requiredIds={8004}},
 		{id=6391,name="Stoneclaw Totem",subText="Rank 3",level=28,icon="Interface\\Icons\\Spell_Nature_StoneClawTotem",school="Elemental Combat",requiredIds={6390}},
-		{id=546,name="Water Walking",subText="",level=28,icon="Interface\\Icons\\Spell_Frost_WindWalkOn",school="Enhancement"}
+		{id=546,name="Water Walking",subText="",level=28,icon="Interface\\Icons\\Spell_Frost_WindWalkOn",school="Enhancement"},
+		{id=36917,name="Molten Blast",subText="Rank 2",level=28,icon="Interface\\Icons\\Spell_Fire_MeteorStorm",school="Elemental Combat",requiredIds={36916}}
 	},
 	[30] = {
 		{id=556,name="Astral Recall",subText="",level=30,icon="Interface\\Icons\\Spell_Nature_AstralRecal",school="Enhancement"},
@@ -137,7 +139,8 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=8010,name="Lesser Healing Wave",subText="Rank 3",level=36,icon="Interface\\Icons\\Spell_Nature_HealingWaveLesser",school="Restoration",requiredIds={8008}},
 		{id=10585,name="Magma Totem",subText="Rank 2",level=36,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Elemental Combat",requiredIds={8190}},
 		{id=10495,name="Mana Spring Totem",subText="Rank 2",level=36,icon="Interface\\Icons\\Spell_Nature_ManaRegenTotem",school="Restoration",requiredIds={5675}},
-		{id=15107,name="Windwall Totem",subText="Rank 1",level=36,icon="Interface\\Icons\\Spell_Nature_EarthBind",school="Enhancement"}
+		{id=15107,name="Windwall Totem",subText="Rank 1",level=36,icon="Interface\\Icons\\Spell_Nature_EarthBind",school="Enhancement"},
+		{id=36918,name="Molten Blast",subText="Rank 3",level=36,icon="Interface\\Icons\\Spell_Fire_MeteorStorm",school="Elemental Combat",requiredIds={36917}}
 	},
 	[38] = {
 		{id=8170,name="Disease Cleansing Totem",subText="",level=38,icon="Interface\\Icons\\Spell_Nature_DiseaseCleansingTotem",school="Restoration"},
@@ -180,7 +183,8 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=10392,name="Lightning Bolt",subText="Rank 8",level=44,icon="Interface\\Icons\\Spell_Nature_Lightning",school="Elemental Combat",requiredIds={10391}},
 		{id=10600,name="Nature Resistance Totem",subText="Rank 2",level=44,icon="Interface\\Icons\\Spell_Nature_NatureResistanceTotem",school="Enhancement",requiredIds={10595}},
 		{id=16315,name="Rockbiter Weapon",subText="Rank 6",level=44,icon="Interface\\Icons\\Spell_Nature_RockBiter",school="Enhancement",requiredIds={16314}},
-		{id=10407,name="Stoneskin Totem",subText="Rank 5",level=44,icon="Interface\\Icons\\Spell_Nature_StoneSkinTotem",school="Enhancement",requiredIds={10406}}
+		{id=10407,name="Stoneskin Totem",subText="Rank 5",level=44,icon="Interface\\Icons\\Spell_Nature_StoneSkinTotem",school="Enhancement",requiredIds={10406}},
+		{id=36919,name="Molten Blast",subText="Rank 4",level=44,icon="Interface\\Icons\\Spell_Fire_MeteorStorm",school="Elemental Combat",requiredIds={36918}}
 	},
 	[46] = {
 		{id=10622,name="Chain Heal",subText="Rank 2",level=46,icon="Interface\\Icons\\Spell_Nature_HealingWaveGreater",school="Restoration",requiredIds={1064}},
@@ -216,7 +220,8 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=11315,name="Fire Nova Totem",subText="Rank 5",level=52,icon="Interface\\Icons\\Spell_Fire_SealOfFire",school="Elemental Combat",requiredIds={11314}},
 		{id=10448,name="Flame Shock",subText="Rank 5",level=52,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Elemental Combat",requiredIds={10447}},
 		{id=10467,name="Lesser Healing Wave",subText="Rank 5",level=52,icon="Interface\\Icons\\Spell_Nature_HealingWaveLesser",school="Restoration",requiredIds={10466}},
-		{id=10442,name="Strength of Earth Totem",subText="Rank 4",level=52,icon="Interface\\Icons\\Spell_Nature_EarthBindTotem",school="Enhancement",requiredIds={8161}}
+		{id=10442,name="Strength of Earth Totem",subText="Rank 4",level=52,icon="Interface\\Icons\\Spell_Nature_EarthBindTotem",school="Enhancement",requiredIds={8161}},
+		{id=36920,name="Molten Blast",subText="Rank 5",level=52,icon="Interface\\Icons\\Spell_Fire_MeteorStorm",school="Elemental Combat",requiredIds={36919}}
 	},
 	[54] = {
 		{id=10623,name="Chain Heal",subText="Rank 3",level=54,icon="Interface\\Icons\\Spell_Nature_HealingWaveGreater",school="Restoration",requiredIds={10622}},
@@ -259,6 +264,7 @@ ClassSpellsByLevel["Shaman"] = {
 		{id=10601,name="Nature Resistance Totem",subText="Rank 3",level=60,icon="Interface\\Icons\\Spell_Nature_NatureResistanceTotem",school="Enhancement",requiredIds={10600}},
 		{id=10438,name="Searing Totem",subText="Rank 6",level=60,icon="Interface\\Icons\\Spell_Fire_SearingTotem",school="Elemental Combat",requiredIds={10437}},
 		{id=25361,name="Strength of Earth Totem",subText="Rank 5",level=60,icon="Interface\\Icons\\Spell_Nature_EarthBindTotem",school="Enhancement",requiredIds={10442}},
-		{id=16362,name="Windfury Weapon",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Nature_Cyclone",school="Enhancement",requiredIds={10486}}
+		{id=16362,name="Windfury Weapon",subText="Rank 4",level=60,icon="Interface\\Icons\\Spell_Nature_Cyclone",school="Enhancement",requiredIds={10486}},
+		{id=36921,name="Molten Blast",subText="Rank 6",level=60,icon="Interface\\Icons\\Spell_Fire_MeteorStorm",school="Elemental Combat",requiredIds={36920}}
 	}
 }
