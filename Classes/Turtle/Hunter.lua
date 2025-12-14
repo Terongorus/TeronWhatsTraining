@@ -126,7 +126,9 @@ ClassSpellsByLevel["Hunter"] = {
 --		{id=19306,name="Counterattack",subText="Rank 1",level=30,icon="Interface\\Icons\\Ability_Warrior_Challange",school="Survival"},
 		{id=15629,name="Distracting Shot",subText="Rank 3",level=30,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship",requiredIds={14274}},
 		{id=5384,name="Feign Death",subText="",level=30,icon="Interface\\Icons\\Ability_Rogue_FeignDeath",school="Survival"},
-		{id=19577,name="Intimidation",subText="",level=30,icon="Interface\\Icons\\Ability_Devour",school="Beast Mastery",requiredTalent={id=383,tabIndex=1}},
+		{id=19577,name="Intimidation",subText="",level=30,icon="Interface\\Icons\\Ability_Devour",school="Beast Mastery",requiredTalent={id=385,tabIndex=1}},
+		--new Beast Mastery talent spell "Kill Command"
+		{id=41827,name="Kill Command",subtext="",level=30,icon="Interface\\Icons\\Ability_Hunter_KillCommand",school="Beast Mastery",requiredTalent={id=386,tabIndex=1}}
 		{id=14269,name="Mongoose Bite",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Hunter_SwiftStrike",school="Survival",requiredIds={1495}},
 		{id=14288,name="Multi-Shot",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship",requiredIds={2643}},
 		{id=14326,name="Scare Beast",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Druid_Cower",school="Beast Mastery",requiredIds={1513}},
@@ -167,6 +169,7 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=19506,name="Trueshot Aura",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_TrueShot",school="Marksmanship",requiredTalent={id=423,tabIndex=2}},
 		{id=1510,name="Volley",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_Marksmanship",school="Marksmanship"},
 		{id=3037,name="Steady Shot",subText="Rank 3",level=22,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3036},requiredTalent={id=413,tabIndex=2}}
+		--new Beast Mastery talent spell "Baited Shot"
 	},
 	[42] = {
 --		{id=20909,name="Counterattack",subText="Rank 2",level=42,icon="Interface\\Icons\\Ability_Warrior_Challange",school="Survival",requiredIds={19306}},
