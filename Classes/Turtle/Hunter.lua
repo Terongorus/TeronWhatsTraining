@@ -162,7 +162,7 @@ ClassSpellsByLevel["Hunter"] = {
 	},
 	[40] = {
 		{id=13159,name="Aspect of the Pack",subText="",level=40,icon="Interface\\Icons\\Ability_Mount_WhiteTiger",school="Beast Mastery"},
-		{id=19574,name="Bestial Wrath",subText="",level=40,icon="Interface\\Icons\\Ability_Druid_FerociousBite",school="Beast Mastery",requiredTalent={id=387,tabIndex=1}},
+--		{id=19574,name="Bestial Wrath",subText="",level=40,icon="Interface\\Icons\\Ability_Druid_FerociousBite",school="Beast Mastery",requiredTalent={id=387,tabIndex=1}},
 		{id=15630,name="Distracting Shot",subText="Rank 4",level=40,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship",requiredIds={15629}},
 		{id=14310,name="Freezing Trap",subText="Rank 2",level=40,icon="Interface\\Icons\\Spell_Frost_ChainsOfIce",school="Survival",requiredIds={1499}},
 		{id=14324,name="Hunter's Mark",subText="Rank 3",level=40,icon="Interface\\Icons\\Ability_Hunter_SniperShot",school="Marksmanship",requiredIds={14323}},
@@ -212,7 +212,7 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=13543,name="Mend Pet",subText="Rank 6",level=52,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={13542}},
 	},
 	[54] = {
-		{id=20910,name="Counterattack",subText="Rank 3",level=54,icon="Interface\\Icons\\Ability_Warrior_Challange",school="Survival",requiredIds={20909}},
+--		{id=20910,name="Counterattack",subText="Rank 3",level=54,icon="Interface\\Icons\\Ability_Warrior_Challange",school="Survival",requiredIds={20909}},
 		{id=14317,name="Explosive Trap",subText="Rank 3",level=54,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Survival",requiredIds={14316}},
 		{id=14290,name="Multi-Shot",subText="Rank 4",level=54,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship",requiredIds={14289}},
 	},
