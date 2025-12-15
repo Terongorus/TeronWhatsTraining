@@ -38,11 +38,11 @@ ClassSpellsByLevel["Hunter"] = {
 	[1] = {
 		{id=75,name="Auto Shot",subText="",level=1,icon="Interface\\Icons\\Ability_Whirlwind",school="Marksmanship"},
 		{id=2973,name="Raptor Strike",subText="Rank 1",level=1,icon="Interface\\Icons\\Ability_MeleeDamage",school="Survival"},
-		{id=1494,name="Track Beasts",subText="",level=1,icon="Interface\\Icons\\Ability_Tracking",school="Survival"}
+		{id=1494,name="Track Beasts",subText="",level=1,icon="Interface\\Icons\\Ability_Tracking",school="Survival"},
 	},
 	[4] = {
 		{id=13163,name="Aspect of the Monkey",subText="",level=4,icon="Interface\\Icons\\Ability_Hunter_AspectOfTheMonkey",school="Beast Mastery"},
-		{id=1978,name="Serpent Sting",subText="Rank 1",level=4,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship"}
+		{id=1978,name="Serpent Sting",subText="Rank 1",level=4,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship"},
 	},
 	[6] = {
 		{id=3044,name="Arcane Shot",subText="Rank 1",level=6,icon="Interface\\Icons\\Ability_ImpalingBolt",school="Marksmanship"},
@@ -61,13 +61,13 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=982,name="Revive Pet",subText="",level=10,icon="Interface\\Icons\\Ability_Hunter_BeastSoothe",school="Beast Mastery"},
 		{id=13549,name="Serpent Sting",subText="Rank 2",level=10,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={1978}},
 		{id=13481,name="Tame Beast",subText="",level=10,icon="Interface\\Icons\\Ability_Hunter_BeastTaming",school="Beast Mastery"},
-		{id=19883,name="Track Humanoids",subText="",level=10,icon="Interface\\Icons\\Spell_Holy_PrayerOfHealing",school="Survival"}
+		{id=19883,name="Track Humanoids",subText="",level=10,icon="Interface\\Icons\\Spell_Holy_PrayerOfHealing",school="Survival"},
 	},
 	[12] = {
 		{id=14281,name="Arcane Shot",subText="Rank 2",level=12,icon="Interface\\Icons\\Ability_ImpalingBolt",school="Marksmanship",requiredIds={3044}},
 		{id=20736,name="Distracting Shot",subText="Rank 1",level=12,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship"},
 		{id=136,name="Mend Pet",subText="Rank 1",level=12,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery"},
-		{id=2974,name="Wing Clip",subText="Rank 1",level=12,icon="Interface\\Icons\\Ability_Rogue_Trip",school="Survival"}
+		{id=2974,name="Wing Clip",subText="Rank 1",level=12,icon="Interface\\Icons\\Ability_Rogue_Trip",school="Survival"},
 	},
 	[14] = {
 		{id=6197,name="Eagle Eye",subText="",level=14,icon="Interface\\Icons\\Ability_Hunter_EagleEye",school="Beast Mastery"},
@@ -77,14 +77,14 @@ ClassSpellsByLevel["Hunter"] = {
 	[16] = {
 		{id=13795,name="Immolation Trap",subText="Rank 1",level=16,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Survival"},
 		{id=1495,name="Mongoose Bite",subText="Rank 1",level=16,icon="Interface\\Icons\\Ability_Hunter_SwiftStrike",school="Survival"},
-		{id=14261,name="Raptor Strike",subText="Rank 3",level=16,icon="Interface\\Icons\\Ability_MeleeDamage",school="Survival",requiredIds={14260}}
+		{id=14261,name="Raptor Strike",subText="Rank 3",level=16,icon="Interface\\Icons\\Ability_MeleeDamage",school="Survival",requiredIds={14260}},
 	},
 	[18] = {
 		{id=14318,name="Aspect of the Hawk",subText="Rank 2",level=18,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Beast Mastery",requiredIds={13165}},
 		{id=51496,name="Aspect of the Wolf",subText="Rank 2",level=18,icon="Interface\\Icons\\Ability_Mount_WhiteDireWolf",school="Beast Mastery",requiredIds={45650}},
 		{id=2643,name="Multi-Shot",subText="Rank 1",level=18,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship"},
 		{id=13550,name="Serpent Sting",subText="Rank 3",level=18,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13549}},
-		{id=19884,name="Track Undead",subText="",level=18,icon="Interface\\Icons\\Spell_Shadow_DarkSummoning",school="Survival"}
+		{id=19884,name="Track Undead",subText="",level=18,icon="Interface\\Icons\\Spell_Shadow_DarkSummoning",school="Survival"},
 	},
 	[20] = {
 		{id=19434,name="Aimed Shot",subText="Rank 1",level=20,icon="Interface\\Icons\\INV_Spear_07",school="Marksmanship"},
@@ -96,7 +96,7 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=14274,name="Distracting Shot",subText="Rank 2",level=20,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship",requiredIds={20736}},
 		{id=1499,name="Freezing Trap",subText="Rank 1",level=20,icon="Interface\\Icons\\Spell_Frost_ChainsOfIce",school="Survival"},
 		{id=3111,name="Mend Pet",subText="Rank 2",level=20,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={136}},
-		{id=3035,name="Steady Shot",subText="Rank 1",level=20,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredTalent={id=416,tabIndex=2}}
+		{id=3035,name="Steady Shot",subText="Rank 1",level=20,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredTalent={id=416,tabIndex=2}},
 	},
 	[22] = {
 		{id=14323,name="Hunter's Mark",subText="Rank 2",level=22,icon="Interface\\Icons\\Ability_Hunter_SniperShot",school="Marksmanship",requiredIds={1130}},
@@ -105,13 +105,13 @@ ClassSpellsByLevel["Hunter"] = {
 	[24] = {
 		{id=1462,name="Beast Lore",subText="",level=24,icon="Interface\\Icons\\Ability_Physical_Taunt",school="Beast Mastery"},
 		{id=14262,name="Raptor Strike",subText="Rank 4",level=24,icon="Interface\\Icons\\Ability_MeleeDamage",school="Survival",requiredIds={14261}},
-		{id=19885,name="Track Hidden",subText="",level=24,icon="Interface\\Icons\\Ability_Stealth",school="Survival"}
+		{id=19885,name="Track Hidden",subText="",level=24,icon="Interface\\Icons\\Ability_Stealth",school="Survival"},
 	},
 	[26] = {
 		{id=14302,name="Immolation Trap",subText="Rank 2",level=26,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Survival",requiredIds={13795}},
 		{id=3045,name="Rapid Fire",subText="",level=26,icon="Interface\\Icons\\Ability_Hunter_RunningShot",school="Marksmanship"},
 		{id=13551,name="Serpent Sting",subText="Rank 4",level=26,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13550}},
-		{id=19880,name="Track Elementals",subText="",level=26,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Survival"}
+		{id=19880,name="Track Elementals",subText="",level=26,icon="Interface\\Icons\\Spell_Frost_SummonWaterElemental",school="Survival"},
 	},
 	[28] = {
 		{id=20900,name="Aimed Shot",subText="Rank 2",level=28,icon="Interface\\Icons\\INV_Spear_07",school="Marksmanship",requiredIds={19434}},
@@ -119,7 +119,7 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=14319,name="Aspect of the Hawk",subText="Rank 3",level=28,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Beast Mastery",requiredIds={14318}},
 		{id=51497,name="Aspect of the Wolf",subText="Rank 3",level=28,icon="Interface\\Icons\\Ability_Mount_WhiteDireWolf",school="Beast Mastery",requiredIds={51496}},
 		{id=13809,name="Frost Trap",subText="",level=28,icon="Interface\\Icons\\Spell_Frost_FreezingBreath",school="Survival"},
-		{id=3661,name="Mend Pet",subText="Rank 3",level=28,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={3111}}
+		{id=3661,name="Mend Pet",subText="Rank 3",level=28,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={3111}},
 	},
 	[30] = {
 		{id=13161,name="Aspect of the Beast",subText="",level=30,icon="Interface\\Icons\\Ability_Mount_PinkTiger",school="Beast Mastery"},
@@ -128,37 +128,37 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=5384,name="Feign Death",subText="",level=30,icon="Interface\\Icons\\Ability_Rogue_FeignDeath",school="Survival"},
 		{id=19577,name="Intimidation",subText="",level=30,icon="Interface\\Icons\\Ability_Devour",school="Beast Mastery",requiredTalent={id=385,tabIndex=1}},
 		--new Beast Mastery talent spell "Kill Command"
-		{id=41827,name="Kill Command",subtext="",level=30,icon="Interface\\Icons\\Ability_Hunter_KillCommand",school="Beast Mastery",requiredTalent={id=386,tabIndex=1}}
+		{id=41827,name="Kill Command",subtext="",level=30,icon="Interface\\Icons\\Ability_Hunter_KillCommand",school="Beast Mastery",requiredTalent={id=386,tabIndex=1}},
 		--new Survival talent spell "Lacerate"
-		{id=48049,name="Lacerate",subText="",level=30,icon="Interface\\Icons\\Spell_Lacerate_1C",school="Survival",requiredTalent={id=406,tabIndex=3}}
+		{id=48049,name="Lacerate",subText="",level=30,icon="Interface\\Icons\\Spell_Lacerate_1C",school="Survival",requiredTalent={id=406,tabIndex=3}},
 		{id=14269,name="Mongoose Bite",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Hunter_SwiftStrike",school="Survival",requiredIds={1495}},
 		{id=14288,name="Multi-Shot",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship",requiredIds={2643}},
 		{id=14326,name="Scare Beast",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Druid_Cower",school="Beast Mastery",requiredIds={1513}},
 		{id=19503,name="Scatter Shot",subText="",level=30,icon="Interface\\Icons\\Ability_GolemStormBolt",school="Marksmanship",requiredTalent={id=420,tabIndex=2}},
-		{id=3036,name="Steady Shot",subText="Rank 2",level=14,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3035},requiredTalent={id=416,tabIndex=2}}
+		{id=3036,name="Steady Shot",subText="Rank 2",level=14,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3035},requiredTalent={id=416,tabIndex=2}},
 	},
 	[32] = {
 		{id=1543,name="Flare",subText="",level=32,icon="Interface\\Icons\\Spell_Fire_Flare",school="Marksmanship"},
 		{id=14263,name="Raptor Strike",subText="Rank 5",level=32,icon="Interface\\Icons\\Ability_MeleeDamage",school="Survival",requiredIds={14262}},
-		{id=19878,name="Track Demons",subText="",level=32,icon="Interface\\Icons\\Spell_Shadow_SummonFelHunter",school="Survival"}
+		{id=19878,name="Track Demons",subText="",level=32,icon="Interface\\Icons\\Spell_Shadow_SummonFelHunter",school="Survival"},
 	},
 	[34] = {
 		{id=14272,name="Disengage",subText="Rank 2",level=34,icon="Interface\\Icons\\Ability_Rogue_Feint",school="Survival",requiredIds={781}},
 		{id=13813,name="Explosive Trap",subText="Rank 1",level=34,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Survival"},
-		{id=13552,name="Serpent Sting",subText="Rank 5",level=34,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13551}}
+		{id=13552,name="Serpent Sting",subText="Rank 5",level=34,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13551}},
 	},
 	[36] = {
 		{id=20901,name="Aimed Shot",subText="Rank 3",level=36,icon="Interface\\Icons\\INV_Spear_07",school="Marksmanship",requiredIds={20900}},
 		{id=14284,name="Arcane Shot",subText="Rank 5",level=36,icon="Interface\\Icons\\Ability_ImpalingBolt",school="Marksmanship",requiredIds={14283}},
 		{id=14303,name="Immolation Trap",subText="Rank 3",level=36,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Survival",requiredIds={14302}},
 		{id=3662,name="Mend Pet",subText="Rank 4",level=36,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={3661}},
-		{id=3034,name="Viper Sting",subText="Rank 1",level=36,icon="Interface\\Icons\\Ability_Hunter_AimedShot",school="Marksmanship"}
+		{id=3034,name="Viper Sting",subText="Rank 1",level=36,icon="Interface\\Icons\\Ability_Hunter_AimedShot",school="Marksmanship"},
 	},
 	[38] = {
 		{id=14320,name="Aspect of the Hawk",subText="Rank 4",level=38,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Beast Mastery",requiredIds={14319}},
 		{id=51498,name="Aspect of the Wolf",subText="Rank 4",level=38,icon="Interface\\Icons\\Ability_Mount_WhiteDireWolf",school="Beast Mastery",requiredIds={51497}},
 		{id=52415,name="Carve",subText="Rank 2",level=38,icon="Interface\\Icons\\INV_ThrowingKnife_06",school="Survival",requiredIds={51575},requiredTalent={id=399,tabIndex=3}},
-		{id=14267,name="Wing Clip",subText="Rank 2",level=38,icon="Interface\\Icons\\Ability_Rogue_Trip",school="Survival",requiredIds={2974}}
+		{id=14267,name="Wing Clip",subText="Rank 2",level=38,icon="Interface\\Icons\\Ability_Rogue_Trip",school="Survival",requiredIds={2974}},
 	},
 	[40] = {
 		{id=13159,name="Aspect of the Pack",subText="",level=40,icon="Interface\\Icons\\Ability_Mount_WhiteTiger",school="Beast Mastery"},
@@ -172,31 +172,31 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=1510,name="Volley",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_Marksmanship",school="Marksmanship"},
 		{id=3037,name="Steady Shot",subText="Rank 3",level=22,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3036},requiredTalent={id=416,tabIndex=2}}
 		--new Beast Mastery talent spell "Baited Shot"
-		{id=46321,name="Baited Shot",subText="",level=40,icon="Interface\\Icons\\INV_Misc_Food_66",school="Beast Mastery",requiredTalent={id=390,tabIndex=1}}
+		{id=46321,name="Baited Shot",subText="",level=40,icon="Interface\\Icons\\INV_Misc_Food_66",school="Beast Mastery",requiredTalent={id=390,tabIndex=1}},
 	},
 	[42] = {
 --		{id=20909,name="Counterattack",subText="Rank 2",level=42,icon="Interface\\Icons\\Ability_Warrior_Challange",school="Survival",requiredIds={19306}},
 		{id=14289,name="Multi-Shot",subText="Rank 3",level=42,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship",requiredIds={14288}},
-		{id=13553,name="Serpent Sting",subText="Rank 6",level=42,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13552}}
+		{id=13553,name="Serpent Sting",subText="Rank 6",level=42,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13552}},
 	},
 	[44] = {
 		{id=20902,name="Aimed Shot",subText="Rank 4",level=44,icon="Interface\\Icons\\INV_Spear_07",school="Marksmanship",requiredIds={20901}},
 		{id=14285,name="Arcane Shot",subText="Rank 6",level=44,icon="Interface\\Icons\\Ability_ImpalingBolt",school="Marksmanship",requiredIds={14284}},
 		{id=14316,name="Explosive Trap",subText="Rank 2",level=44,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Survival",requiredIds={13813}},
 		{id=13542,name="Mend Pet",subText="Rank 5",level=44,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={3662}},
-		{id=14270,name="Mongoose Bite",subText="Rank 3",level=44,icon="Interface\\Icons\\Ability_Hunter_SwiftStrike",school="Survival",requiredIds={14269}}
+		{id=14270,name="Mongoose Bite",subText="Rank 3",level=44,icon="Interface\\Icons\\Ability_Hunter_SwiftStrike",school="Survival",requiredIds={14269}},
 	},
 	[46] = {
 		{id=20043,name="Aspect of the Wild",subText="Rank 1",level=46,icon="Interface\\Icons\\Spell_Nature_ProtectionformNature",school="Beast Mastery"},
 		{id=14304,name="Immolation Trap",subText="Rank 4",level=46,icon="Interface\\Icons\\Spell_Fire_FlameShock",school="Survival",requiredIds={14303}},
 		{id=14327,name="Scare Beast",subText="Rank 3",level=46,icon="Interface\\Icons\\Ability_Druid_Cower",school="Beast Mastery",requiredIds={14326}},
-		{id=14279,name="Viper Sting",subText="Rank 2",level=46,icon="Interface\\Icons\\Ability_Hunter_AimedShot",school="Marksmanship",requiredIds={3034}}
+		{id=14279,name="Viper Sting",subText="Rank 2",level=46,icon="Interface\\Icons\\Ability_Hunter_AimedShot",school="Marksmanship",requiredIds={3034}},
 	},
 	[48] = {
 		{id=14321,name="Aspect of the Hawk",subText="Rank 5",level=48,icon="Interface\\Icons\\Spell_Nature_RavenForm",school="Beast Mastery",requiredIds={14320}},
 		{id=51499,name="Aspect of the Wolf",subText="Rank 5",level=48,icon="Interface\\Icons\\Ability_Mount_WhiteDireWolf",school="Beast Mastery",requiredIds={51498}},
 		{id=14273,name="Disengage",subText="Rank 3",level=48,icon="Interface\\Icons\\Ability_Rogue_Feint",school="Survival",requiredIds={14272}},
-		{id=14265,name="Raptor Strike",subText="Rank 7",level=48,icon="Interface\\Icons\\Ability_MeleeDamage",school="Survival",requiredIds={14264}}
+		{id=14265,name="Raptor Strike",subText="Rank 7",level=48,icon="Interface\\Icons\\Ability_MeleeDamage",school="Survival",requiredIds={14264}},
 	},
 	[50] = {
 		{id=15631,name="Distracting Shot",subText="Rank 5",level=50,icon="Interface\\Icons\\Spell_Arcane_Blink",school="Marksmanship",requiredIds={15630}},
@@ -204,17 +204,17 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=19879,name="Track Dragonkin",subText="",level=50,icon="Interface\\Icons\\INV_Misc_Head_Dragon_01",school="Survival"},
 		{id=20905,name="Trueshot Aura",subText="Rank 2",level=50,icon="Interface\\Icons\\Ability_TrueShot",school="Marksmanship",requiredIds={19506},requiredTalent={id=426,tabIndex=2}},
 		{id=14294,name="Volley",subText="Rank 2",level=50,icon="Interface\\Icons\\Ability_Marksmanship",school="Marksmanship",requiredIds={1510}},
-		{id=3038,name="Steady Shot",subText="Rank 4",level=30,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3037},requiredTalent={id=416,tabIndex=2}}
+		{id=3038,name="Steady Shot",subText="Rank 4",level=30,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3037},requiredTalent={id=416,tabIndex=2}},
 	},
 	[52] = {
 		{id=20903,name="Aimed Shot",subText="Rank 5",level=52,icon="Interface\\Icons\\INV_Spear_07",school="Marksmanship",requiredIds={20902}},
 		{id=14286,name="Arcane Shot",subText="Rank 7",level=52,icon="Interface\\Icons\\Ability_ImpalingBolt",school="Marksmanship",requiredIds={14285}},
-		{id=13543,name="Mend Pet",subText="Rank 6",level=52,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={13542}}
+		{id=13543,name="Mend Pet",subText="Rank 6",level=52,icon="Interface\\Icons\\Ability_Hunter_MendPet",school="Beast Mastery",requiredIds={13542}},
 	},
 	[54] = {
 		{id=20910,name="Counterattack",subText="Rank 3",level=54,icon="Interface\\Icons\\Ability_Warrior_Challange",school="Survival",requiredIds={20909}},
 		{id=14317,name="Explosive Trap",subText="Rank 3",level=54,icon="Interface\\Icons\\Spell_Fire_SelfDestruct",school="Survival",requiredIds={14316}},
-		{id=14290,name="Multi-Shot",subText="Rank 4",level=54,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship",requiredIds={14289}}
+		{id=14290,name="Multi-Shot",subText="Rank 4",level=54,icon="Interface\\Icons\\Ability_UpgradeMoonGlaive",school="Marksmanship",requiredIds={14289}},
 	},
 	[56] = {
 		{id=20190,name="Aspect of the Wild",subText="Rank 2",level=56,icon="Interface\\Icons\\Spell_Nature_ProtectionformNature",school="Beast Mastery",requiredIds={20043}},
@@ -229,7 +229,7 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=14325,name="Hunter's Mark",subText="Rank 4",level=58,icon="Interface\\Icons\\Ability_Hunter_SniperShot",school="Marksmanship",requiredIds={14324}},
 		{id=14271,name="Mongoose Bite",subText="Rank 4",level=58,icon="Interface\\Icons\\Ability_Hunter_SwiftStrike",school="Survival",requiredIds={14270}},
 		{id=13555,name="Serpent Sting",subText="Rank 8",level=58,icon="Interface\\Icons\\Ability_Hunter_Quickshot",school="Marksmanship",requiredIds={13554}},
-		{id=14295,name="Volley",subText="Rank 3",level=58,icon="Interface\\Icons\\Ability_Marksmanship",school="Marksmanship",requiredIds={14294}}
+		{id=14295,name="Volley",subText="Rank 3",level=58,icon="Interface\\Icons\\Ability_Marksmanship",school="Marksmanship",requiredIds={14294}},
 	},
 	[60] = {
 		{id=20904,name="Aimed Shot",subText="Rank 6",level=60,icon="Interface\\Icons\\INV_Spear_07",school="Marksmanship",requiredIds={20903}},
