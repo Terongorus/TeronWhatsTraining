@@ -170,7 +170,7 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=19882,name="Track Giants",subText="",level=40,icon="Interface\\Icons\\Ability_Racial_Avatar",school="Survival"},
 		{id=19506,name="Trueshot Aura",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_TrueShot",school="Marksmanship",requiredTalent={id=426,tabIndex=2}},
 		{id=1510,name="Volley",subText="Rank 1",level=40,icon="Interface\\Icons\\Ability_Marksmanship",school="Marksmanship"},
-		{id=3037,name="Steady Shot",subText="Rank 3",level=22,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3036},requiredTalent={id=416,tabIndex=2}}
+		{id=3037,name="Steady Shot",subText="Rank 3",level=22,icon="Interface\\Icons\\Ability_Hunter_SteadyShot",school="Marksmanship",requiredIds={3036},requiredTalent={id=416,tabIndex=2}},
 		--new Beast Mastery talent spell "Baited Shot"
 		{id=46321,name="Baited Shot",subText="",level=40,icon="Interface\\Icons\\INV_Misc_Food_66",school="Beast Mastery",requiredTalent={id=390,tabIndex=1}},
 	},
