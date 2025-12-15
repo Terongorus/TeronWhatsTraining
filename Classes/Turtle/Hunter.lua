@@ -128,7 +128,7 @@ ClassSpellsByLevel["Hunter"] = {
 		{id=5384,name="Feign Death",subText="",level=30,icon="Interface\\Icons\\Ability_Rogue_FeignDeath",school="Survival"},
 		{id=19577,name="Intimidation",subText="",level=30,icon="Interface\\Icons\\Ability_Devour",school="Beast Mastery",requiredTalent={id=385,tabIndex=1}},
 		--new Beast Mastery talent spell "Kill Command"
-		{id=41827,name="Kill Command",subtext="",level=30,icon="Interface\\Icons\\Ability_Hunter_KillCommand",school="Beast Mastery",requiredTalent={id=386,tabIndex=1}},
+		{id=41827,name="Kill Command",subText="",level=30,icon="Interface\\Icons\\Ability_Hunter_KillCommand",school="Beast Mastery",requiredTalent={id=386,tabIndex=1}},
 		--new Survival talent spell "Lacerate"
 		{id=48049,name="Lacerate",subText="",level=30,icon="Interface\\Icons\\Spell_Lacerate_1C",school="Survival",requiredTalent={id=406,tabIndex=3}},
 		{id=14269,name="Mongoose Bite",subText="Rank 2",level=30,icon="Interface\\Icons\\Ability_Hunter_SwiftStrike",school="Survival",requiredIds={1495}},
