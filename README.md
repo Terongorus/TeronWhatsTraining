@@ -5,8 +5,8 @@ class can ever learn — which ones you can train right now, which ones are comi
 level, which ones you're missing a requirement or talent point for, and which ones you've
 told it to stop bothering you about.
 
-This is Kaloyan "Terongorus" Kolev's personal fork of the community **WhatsTraining**
-backport, targeting pure Vanilla 1.12.1 servers such as **TwinStar Kronos V**.
+This is Terongorus's personal fork of the community **WhatsTraining** backport, targeting
+pure Vanilla 1.12.1 servers such as **TwinStar Kronos V**.
 
 > **Looking for the Turtle WoW version?** That's a separate sibling fork,
 > **[TeronWhatsTraining-TW](../TeronWhatsTraining-TW)**. Turtle WoW's custom class spells
@@ -108,8 +108,7 @@ touching a single line of the spell database or categorization logic.
 
 - Original **WhatsTraining** addon (Classic Era 1.14.2+) by **Sveng**.
 - 1.12.1 Vanilla backport by **spawnedc & Antigravity**.
-- ModernSpellBook integration and ongoing maintenance of this fork by
-  **Kaloyan "Terongorus" Kolev**.
+- ModernSpellBook integration and ongoing maintenance of this fork by **Terongorus**.
 
 ---
 
@@ -118,7 +117,7 @@ touching a single line of the spell database or categorization logic.
 Аддон для **World of Warcraft Vanilla 1.12.1**, показывающий все доступные для изучения
 заклинания вашего класса: что можно выучить прямо сейчас, что появится в ближайших
 уровнях, чего не хватает (уровня, требования, таланта), и что вы решили скрыть вручную.
-Это личный форк Kaloyan "Terongorus" Kolev, нацеленный на чистые Vanilla 1.12.1 сервера
+Это личный форк Terongorus, нацеленный на чистые Vanilla 1.12.1 сервера
 (например, TwinStar Kronos V).
 
 > Версия для **Turtle WoW** — отдельный форк **TeronWhatsTraining-TW**, так как списки
