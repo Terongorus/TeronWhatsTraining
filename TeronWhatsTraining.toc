@@ -1,0 +1,29 @@
+## Interface: 11200
+## Title: Teron's What's Training?
+## Version: 1.0.8
+## Author: Sveng, 1.12.1 Backport by spawnedc & Antigravity
+## Notes: Shows you what spells are available at your class trainer
+## SavedVariables: WT_ShowIgnoreNotice, WT_ShowLearnedNotice
+## SavedVariablesPerCharacter: WT_LearnedPetAbilities, WT_NeedsToOpenBeastTraining, WT_IgnoredSpells
+## OptionalDeps: TeronModernSpellBook
+
+Environment.lua
+Constants.lua
+Utils.lua
+SpellsByLevel.lua
+PlayerData.lua
+
+Classes\Druid.lua
+Classes\Hunter.lua
+Classes\Mage.lua
+Classes\Paladin.lua
+Classes\Priest.lua
+Classes\Rogue.lua
+Classes\Shaman.lua
+Classes\Warlock.lua
+Classes\Warrior.lua
+
+SpellDescriptions.lua
+WhatsTrainingUI.lua
+WhatsTrainingUI_MSB.lua
+WhatsTraining.lua
