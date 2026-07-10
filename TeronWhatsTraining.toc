@@ -1,7 +1,7 @@
 ## Interface: 11200
 ## Title: Teron's What's Training?
-## Version: 1.0.8
-## Author: Sveng, 1.12.1 Backport by spawnedc & Antigravity
+## Version: 1.1.0
+## Author: Sveng, 1.12.1 Backport by spawnedc & Antigravity, Teron fork by Terongorus
 ## Notes: Shows you what spells are available at your class trainer
 ## SavedVariables: WT_ShowIgnoreNotice, WT_ShowLearnedNotice
 ## SavedVariablesPerCharacter: WT_LearnedPetAbilities, WT_NeedsToOpenBeastTraining, WT_IgnoredSpells
